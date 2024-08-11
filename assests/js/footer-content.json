@@ -1,0 +1,14 @@
+{
+    "content" :[
+        {"name":"ABOUT US", "data":[
+            {"name":"History","href":"#"}, {"name":"Our Commitment","href":"#"}, {"name":"Blog","href":"#"}
+            ]},
+        {"name":"OPPORTUNITIES", "data":[
+            {"name":"Franchising","href":"#"}, {"name":"Careers","href":"#"}, {"name":"Events","href":"#"}
+            ]},
+        {"name":"CUSTOMER SERVICE", "data":[
+            {"name":"Contact Us","href":"#"}, {"name":"FAQ","href":"#"}, {"name":"Privacy Policy","href":"#"}, {"name":"Terms of Use","href":"#"}
+            ]}
+      
+    ]
+}
