@@ -15,8 +15,8 @@ switch ($route) {
     case 'home':
         require 'home.php';
         break;
-    case 'about':
-        require 'about.php';
+    case 'aboutus':
+        require 'aboutus.php';
         break;
     case 'location':
         require  'location.php';

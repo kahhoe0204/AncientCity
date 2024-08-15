@@ -1,17 +1,17 @@
-<nav id="default_navbar" class="navbar navbar-expand-lg navbar-dark ">
+<nav id="default_navbar" class="navbar navbar-expand-lg navbar-light ">
   <div class="container-fluid nav-container">
     <div class="brand">
-        <a class="navbar-brand ps-3 ps-lg-0" href="/home">Ancient City</a>
+        <a class="navbar-brand ps-3 ps-lg-0" href="/home"><img src="/assests/images/logo/ancient_city_logo.jpg" alt=""></a>
         <button class="navbar-toggler" id="collapse_controller" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
     </div>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav mx-auto">
-      <a class="nav-link <?php echo $route == "home" ? 'active' : ''; ?>" <?php echo $route == "home" ? 'aria-current="page"' : ''; ?> href="/home">Home</a>
-<a class="nav-link <?php echo $route == "menu" ? 'active' : ''; ?>" <?php echo $route == "menu" ? 'aria-current="page"' : ''; ?> href="/menu">Menu</a>
-<a class="nav-link <?php echo $route == "promotion" ? 'active' : ''; ?>" <?php echo $route == "promotion" ? 'aria-current="page"' : ''; ?> href="/promotion">Promotion</a>
-<a class="nav-link <?php echo $route == "location" ? 'active' : ''; ?>" <?php echo $route == "location" ? 'aria-current="page"' : ''; ?> href="/location">Location</a>
+        <a class="nav-link <?php echo $route == "home" ? 'active' : ''; ?>" <?php echo $route == "home" ? 'aria-current="page"' : ''; ?> href="/home">Home</a>
+        <a class="nav-link <?php echo $route == "menu" ? 'active' : ''; ?>" <?php echo $route == "menu" ? 'aria-current="page"' : ''; ?> href="/menu">Menu</a>
+        <a class="nav-link <?php echo $route == "promotion" ? 'active' : ''; ?>" <?php echo $route == "promotion" ? 'aria-current="page"' : ''; ?> href="/promotion">Promotion</a>
+        <a class="nav-link <?php echo $route == "location" ? 'active' : ''; ?>" <?php echo $route == "location" ? 'aria-current="page"' : ''; ?> href="/location">Location</a>
       </div>
     </div>
   </div>
@@ -19,9 +19,10 @@
 <div class="main_content">
 
 <script>
+
    $(document).ready(function() {
     var lastScrollTop = 0;
-        $(window).on("scroll", function() {
+        $("body").on("scroll", function() {
             var currentScrollTop = $(this).scrollTop();
             if($("#collapse_controller").attr('aria-expanded')== "false"){
                 if ($(this).scrollTop() > 100) {
@@ -41,8 +42,26 @@
                     $("#default_navbar").css("transform", "translate3d(0px, 0px, 0px)");
                 }
             }
-            lastScrollTop = currentScrollTop;
+            if(currentScrollTop >0){
+                lastScrollTop = currentScrollTop;
+            }
+
+            //scrolltoTop 
+            if($("#collapse_controller").attr('aria-expanded')== "false"){
+                if ($(this).scrollTop() > 500) {
+                        $("#scrollTopContainer").css("display","flex");
+                } else {
+                        $("#scrollTopContainer").css("display","none");
+                }
+            }
         });
+
+        $("body").on("scroll", function() {
+            var currentScrollTop = $(this).scrollTop();
+            $("#teest").html(currentScrollTop)
+            // Existing scroll code here...
+        });
+
         $("#collapse_controller").on("click",function(){
             if($("#collapse_controller").attr('aria-expanded')== "true"){
             $("#default_navbar").css("background-color", "#dd902d");
@@ -53,5 +72,10 @@
                 }
             }
         })
+
+        $("#scrollTopButton").on("click", function() {
+            $("html, body").animate({ scrollTop: 0 }, "slow"); // Scroll to the top slowly
+        });
+
     });
 </script>

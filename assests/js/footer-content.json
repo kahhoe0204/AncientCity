@@ -1,7 +1,7 @@
 {
     "content" :[
         {"name":"ABOUT US", "data":[
-            {"name":"History","href":"#"}, {"name":"Our Commitment","href":"#"}, {"name":"Blog","href":"#"}
+            {"name":"History","href":"aboutus"}, {"name":"Our Commitment","href":"#"}, {"name":"Blog","href":"#"}
             ]},
         {"name":"OPPORTUNITIES", "data":[
             {"name":"Franchising","href":"#"}, {"name":"Careers","href":"#"}, {"name":"Events","href":"#"}

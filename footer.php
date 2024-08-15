@@ -31,7 +31,7 @@ $footer = $footerData['content'];
               
                 foreach ($content['data'] as $data){
                     echo '<ul><li><i><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="m14 17l-5-5l5-5z"/></svg></i>';
-                    echo "<a href='".$data['href']."' target='_blank'>".$data['name']."</a>";
+                    echo "<a href='".$data['href']."' >".$data['name']."</a>";
                     echo "</li></ul>";
                 }
                 echo "</div>";

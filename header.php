@@ -30,6 +30,8 @@ function version($name){
     <link rel="stylesheet" href="assests/css/navbar.css?v=<?php echo version("navbar.css")?>">
     <link rel="stylesheet" href="assests/css/footer.css?v=<?php echo version("footer.css");?>">
     <link rel="stylesheet" href="assests/css/main.css?v=<?php echo version("main.css");?>">
+    <link rel="stylesheet" href="assests/css/animation.css?v=<?php echo version("animation.css");?>">
+    <link rel="stylesheet" href="assests/css/shadow.css?v=<?php echo version("shadow.css");?>">
 
     
         <!--Fonts
@@ -47,4 +49,7 @@ function version($name){
 
     <body class="page_body">
         <div class="main-container">
+            <div class="scroll-to-top small-shadow " id="scrollTopContainer">
+                <span style="rotate:-90deg; font-weight:800" class="scrollTopButton" id="scrollTopButton">></span>
+            </div>
  
