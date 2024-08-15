@@ -1,8 +1,8 @@
 
 <div class="location-container ">
     <section class="location-title">
-        <h1 style="margin-bottom:10%; text-align:center;">Where to find us?</h1>
-        <span style="font-size:2rem; font-weight:400; text-align:center; padding-inline:10%">Here’s the outlet location list. See you soon for <span style="font-style: italic; color: #bb9b9b;">YAMCHA</span></span>
+        <h1 style="margin-bottom:10%; text-align:center;" class="text-back-shadow">Where to find us?</h1>
+        <span class="text-back-shadow" style="font-size:2rem; font-weight:400; text-align:center; padding-inline:10%">Here’s the outlet location list. See you soon for <span style="font-style: italic; color: #bb9b9b;">YAMCHA</span></span>
     </section>
 
     <section class="location-outlet content-page" style="background: #cfcfcf;">

@@ -4,9 +4,9 @@
         <div class="carousel-item active">
           <img src="/assests/images/home/home_background.jpg" class="d-block w-100" alt="">
           <div class="carousel-caption d-none d-md-block" style="margin-bottom: 200px;">
-            <h5 class="">古城咖啡美食坊</h5>
-            <h2>Ancient City Coffee</h2>
-            <p>穿越时光，品味古城风情，古城咖啡美食坊诚挚邀您踏入一场独特的美食之旅！</p>
+            <h5 class="text-back-shadow">古城咖啡美食坊</h5>
+            <h2 class="text-back-shadow">Ancient City Coffee</h2>
+            <p class="text-back-shadow">穿越时光，品味古城风情，古城咖啡美食坊诚挚邀您踏入一场独特的美食之旅！</p>
           </div>
         </div>
       </div>
