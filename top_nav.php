@@ -1,7 +1,7 @@
 <nav id="default_navbar" class="navbar navbar-expand-lg navbar-light ">
   <div class="container-fluid nav-container">
     <div class="brand">
-        <a class="navbar-brand ps-3 ps-lg-0" href="/home"><img src="/assests/images/logo/ancient_city_logo.jpg" alt=""></a>
+        <a class="navbar-brand ps-3 ps-lg-0 fade-in" href="/home"><img src="/assests/images/logo/ancient_city_logo.jpg" alt=""></a>
         <button class="navbar-toggler" id="collapse_controller" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>

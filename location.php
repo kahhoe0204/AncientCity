@@ -1,15 +1,15 @@
 
 <div class="location-container ">
     <section class="location-title">
-        <h1 style="margin-bottom:10%; text-align:center;" class="text-back-shadow">Where to find us?</h1>
+        <h2 style="margin-bottom:10%; text-align:center;" class="text-back-shadow">Where to find us?</h2>
         <span class="text-back-shadow" style="font-size:2rem; font-weight:400; text-align:center; padding-inline:10%">Here’s the outlet location list. See you soon for <span style="font-style: italic; color: #bb9b9b;">YAMCHA</span></span>
     </section>
 
     <section class="location-outlet content-page" style="background: #cfcfcf;">
         <div class="outlet-header my-5 d-flex">
             <div class="outlet-headerlist d-flex justify-content-center w-100 ">
-                <button onclick="selectOutlet('all')" id="all" class="outlet-selection small-shadow" style="border-radius:40px 0px 0px 40px; border-right:1px solid #d7d7d7;">All</button>
-                <button onclick="selectOutlet('ancient')" id="ancient" class="outlet-selection small-shadow"  style="border-radius:0px 40px 40px 00px;">Ancient City</button>
+                <button onclick="selectOutlet('all')" id="all" class="outlet-selection small-shadow" style="border-radius:20px 0px 0px 20px; border-right:1px solid #d7d7d7;">All</button>
+                <button onclick="selectOutlet('ancient')" id="ancient" class="outlet-selection small-shadow"  style="border-radius:0px 20px 20px 0px;">Ancient City</button>
             </div>
         </div>
         <div class="container-fluid h-100 justify-content-start d-flex flex-column align-item-center" style="user-select: text !important;">

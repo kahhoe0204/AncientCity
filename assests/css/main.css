@@ -48,6 +48,27 @@ h6{
     font-size:2rem;
 }
 
+@media screen and (max-width: 768px){
+    h1{
+        font-size:4rem;
+    }
+    h2{
+        font-size:3rem;
+    }
+    h3{
+        font-size:2rem;
+    }
+    h4{
+        font-size:2.5rem;
+    }
+    h5{
+        font-size:2rem;
+    }
+    h6{
+        font-size:1.5rem;
+    }
+}
+
 .scroll-to-top{
     width: 33px;
     height: 33px;
@@ -97,6 +118,7 @@ h6{
 
 section{
     overflow-x: hidden;
+    overflow-y: hidden;
     width:100%;
 
 }
@@ -333,14 +355,15 @@ section{
     width: 100%;
     height: 100%;
     flex-direction: column;
+
    }
    .aboutus-title{
     display: flex;
     width: 100%;
-    height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
    }
 
    .center-center{
@@ -349,14 +372,35 @@ section{
     align-items: center;
    }
 
-   .flex-col{
+   .flex{
     display: flex;
+   }
+
+   .flex-col{
     flex-direction: column;
    }
 
    .flex-row{
-    display: flex;
     flex-direction: row;
+   }
+
+   .size-full{
+    width: 100%;
+    height: 100%;
+   }
+
+   .aboutus-card-content{
+    font-size:20px;
+    display: flex;
+    align-items: center;
+   }
+
+   .aboutus-card{
+    margin-bottom: 40px;
+   }
+
+   .main-content-image{
+    width:20%;
    }
 
 @media screen and (max-width: 768px){
@@ -381,6 +425,10 @@ section{
 
     .box{
         padding-inline:45px;
+    }
+
+    .main-content-image{
+        width:30%;
     }
 
 }
