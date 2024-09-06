@@ -17,7 +17,9 @@
   </div>
 </nav>
 <div class="main_content">
-
+    <div class="demo bg-danger" style="width:100%; text-align:center; color:white; margin-bottom:10px;">
+        Demo Website
+    </div>
 <script>
 
    $(document).ready(function() {
